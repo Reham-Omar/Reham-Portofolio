@@ -1,0 +1,75 @@
+.loading-container {
+  /* background-color: #f8f8f8; */
+  height: 100vh;
+  background: url(https://i.pinimg.com/originals/b0/5f/ea/b05fea7ccf9463fffb797304ec3b6a00.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.loading-container > h1 {
+  color: #333;
+}
+
+.theName {
+  /* display: flex; */
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.logo {
+  width: 55px;
+  height: 55px;
+}
+
+@media screen and (min-width: 576px) {
+  .theName {
+    font-size: 55px;
+    font-weight: bold;
+  }
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+.logo {
+  border: 2px solid;
+  display: inline-flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #e9e7e8;
+  border-radius: 5px;
+}
+.logo1{
+  background: rgb(76, 28, 143);
+  color: ivory;
+}
+.logo2{
+  background:rgb(118, 90, 156);
+  color: ivory;
+
+}.logo3{
+  background :rgb(233, 76, 89);
+  color: ivory;
+
+}.logo4{
+  background: rgb(230, 83, 95);
+  color: ivory;
+
+}.logo5{
+  background:rgb(194, 128, 119);
+  color: ivory;
+
+}
+.logo-next {
+ 
+  margin-top: 3%;
+  display:block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(315deg, rgb(118, 90, 156) 0%, rgb(233, 116, 126) 58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
